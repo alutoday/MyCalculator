@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lớp nền -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF"/> <!-- Màu nền -->
+        </shape>
+    </item>
+
+    <!-- Lớp viền -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="7dp"
+                android:color="#808080"/> <!-- Màu viền -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+</layer-list>
